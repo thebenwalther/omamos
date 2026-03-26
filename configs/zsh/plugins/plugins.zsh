@@ -20,9 +20,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # Autosuggestion highlighting
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 
-#### ---- zsh-abbr ------------------------
-[ -f $ZSH/plugins/zsh-abbr/zsh-abbr.zsh ] && source $ZSH/plugins/zsh-abbr/zsh-abbr.zsh
-
 # Load compinit once after all plugins
 autoload -U compinit
 compinit
