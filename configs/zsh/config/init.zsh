@@ -1,6 +1,6 @@
 # Initialize mise (version manager)
 if command -v mise &> /dev/null; then
-  eval "$(mise activate zsh)"
+  eval "$(mise activate zsh --quiet)"
 fi
 
 # Initialize zoxide (smart cd)
