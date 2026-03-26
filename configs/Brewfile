@@ -58,8 +58,6 @@ brew "zellij"
 brew "zmap"
 brew "zoxide"
 brew "zsh"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
 
 # Cask Applications
 cask "bitwarden"
