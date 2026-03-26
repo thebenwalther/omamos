@@ -1,0 +1,25 @@
+# Homebrew
+if [[ "$(uname -m)" == "arm64" ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
+
+# Mise - version manager
+eval "$(mise activate zsh)"
+
+# FZF
+source <(fzf --zsh)
+
+# Zoxide - smart cd
+eval "$(zoxide init zsh)"
+
+# Zsh plugins
+source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+
+# PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+# Starship prompt (keep last)
+eval "$(starship init zsh)"
