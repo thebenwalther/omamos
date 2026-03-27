@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="configs/images/icon.png" width="100" />
+</div>
+
 # Omamos: macOS Development Environment Setup
 
 ## Overview
