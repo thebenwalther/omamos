@@ -4,7 +4,7 @@
 
 Omamos is a shell script automation tool that configures a new macOS machine into a fully working development system in a single command. The name blends "omakase" (お任せ, meaning "I leave it up to you" in Japanese) with "macOS" — a curated, opinionated setup that handles the details so you don't have to.
 
-Inspired by Basecamp's [Omarchy](https://github.com/basecamp/omarchy) and [Omakos](https://github.com/yatish27/omakos).
+Inspired by Basecamp's [Omarchy](https://github.com/basecamp/omarchy) and Yatish Mehta's [Omakos](https://github.com/yatish27/omakos).
 
 ## Installation
 
