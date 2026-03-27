@@ -1,0 +1,2 @@
+# ~/.zshrc – bootstrap only
+[ -f "${ZDOTDIR:-$HOME/.zsh}/.zshrc" ] && source "${ZDOTDIR:-$HOME/.zsh}/.zshrc"
