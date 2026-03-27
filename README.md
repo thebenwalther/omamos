@@ -1,7 +1,7 @@
 
 <img src="configs/images/icon.png" width="100" />
 
-# Omamos: macOS Development Environment Setup
+# Omamos
 
 ## Overview
 
